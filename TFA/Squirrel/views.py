@@ -1,3 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+def map_(request):
+    return render(request, 'Squirrel/map.html')
