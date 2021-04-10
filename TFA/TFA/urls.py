@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Squirrel.views import map
+from Squirrel.views import map, squirrel_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', map, name='map'),
+    path('sightings/',squirrel_list, name='sightings')
 ]

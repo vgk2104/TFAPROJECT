@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e160339-3251-4c11-9938-30fc3aafbca1" name="Default Changelist" comment="">
+    <list default="true" id="32d34e4f-7c5e-41bd-9933-ed747f0bbfb8" name="Default Changelist" comment="Updated Management Commands">
+      <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/list_squirrel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Management/Commands/export_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/export_squirrel_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Management/Commands/import_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0002_auto_20210408_2315.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0003_auto_20210408_2325.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0004_squirrel_specific_location.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/TFA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/TFA/urls.py" afterDir="false" />
     </list>
@@ -15,13 +22,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1quDMs6EeVxOUGAOSdrGEabh0OK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,11 +50,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
