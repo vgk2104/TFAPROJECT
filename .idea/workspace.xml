@@ -5,15 +5,12 @@
       <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/list_squirrel.html" afterDir="false" />
     <list default="true" id="3e160339-3251-4c11-9938-30fc3aafbca1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/edit_squirrel.html" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/add_squirrel.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TFA/Squirrel/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Management/Commands/export_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/export_squirrel_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Management/Commands/import_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0002_auto_20210408_2315.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0003_auto_20210408_2325.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/migrations/0004_squirrel_specific_location.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/TFA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/TFA/urls.py" afterDir="false" />
     </list>

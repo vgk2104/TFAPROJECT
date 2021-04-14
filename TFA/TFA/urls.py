@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Squirrel.views import map, squirrel_list
+from Squirrel.views import map, squirrel_list, add_squirrel
 from Squirrel.views import map, edit_squirrel, stats
 from Squirrel import views
 
@@ -25,4 +25,5 @@ urlpatterns = [
     path('sightings/',squirrel_list, name='sightings'),
     path('sightings/<str:unique_squirrel_id>/',edit_squirrel, name = 'edit'),
     path('sightings/stats', stats, name = 'stats'),
+    path('sightings/add/', add_squirrel, name='add'),
 ]

@@ -6,7 +6,6 @@ from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView, DeleteView
 from django.db.models import Avg, Max, Min, Count
 
-
 def map(request):
     sightings = list(Squirrel.objects.all())[:100]
     context = {'sightings': sightings}
@@ -17,7 +16,6 @@ def squirrel_list(request):
     list_squirrels = list(Squirrel.objects.all())
     context = {'squirrels': list_squirrels}
     return render(request, 'Squirrel/list_squirrel.html', context)
-
 
 def edit_squirrel(request, unique_squirrel_id):
     squirrel = get_object_or_404(Squirrel, Unique_Squirrel_ID=unique_squirrel_id)
@@ -50,4 +48,16 @@ def stats(request):
                'shift': shift,
                }
     return render(request, 'Squirrel/stats.html', context)
-# Change running to Age in HTML as well
+
+def add_squirrel(request):
+    if request.method == 'Post':
+        form = SquirrelForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect(f'/Squirrel/')
+    else:
+        form = SquirrelForm()
+    context = {
+        'form': form
+    }
+    return render(request, 'Squirrel/add_squirrel.html', context)
