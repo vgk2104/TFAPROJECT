@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32d34e4f-7c5e-41bd-9933-ed747f0bbfb8" name="Default Changelist" comment="Updated Management Commands">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/list_squirrel.html" afterDir="false" />
     <list default="true" id="3e160339-3251-4c11-9938-30fc3aafbca1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/edit_squirrel.html" afterDir="false" />
@@ -13,6 +14,9 @@
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/TFA/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/TFA/urls.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +63,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e160339-3251-4c11-9938-30fc3aafbca1" name="Default Changelist" comment="" />
+      <changelist id="32d34e4f-7c5e-41bd-9933-ed747f0bbfb8" name="Default Changelist" comment="Updated Management Commands" />
       <created>1617920539462</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -68,6 +72,7 @@
       <workItem from="1617989760470" duration="1325000" />
       <workItem from="1617991129136" duration="1398000" />
       <workItem from="1617920584680" duration="7061000" />
+      <workItem from="1618345707236" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Management Commands">
       <created>1617943517684</created>
