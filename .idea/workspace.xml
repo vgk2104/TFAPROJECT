@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="32d34e4f-7c5e-41bd-9933-ed747f0bbfb8" name="Default Changelist" comment="Updated Management Commands">
       <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/list_squirrel.html" afterDir="false" />
+    <list default="true" id="3e160339-3251-4c11-9938-30fc3aafbca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TFA/Squirrel/Templates/Squirrel/edit_squirrel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFA/Squirrel/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Management/Commands/export_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/export_squirrel_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TFA/Squirrel/Management/Commands/import_squirrel_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFA/Squirrel/management/commands/import_squirrel_data.py" afterDir="false" />
