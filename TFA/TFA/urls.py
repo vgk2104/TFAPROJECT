@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('map/', views.map, name='map'),
     path('sightings/',squirrel_list, name='sightings'),
+    path('sightings/add/', add_squirrel, name='add'),
     path('sightings/<str:unique_squirrel_id>/',edit_squirrel, name = 'edit'),
     path('sightings/stats', stats, name = 'stats'),
-    path('sightings/add/', add_squirrel, name='add'),
 ]
