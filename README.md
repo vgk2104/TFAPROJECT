@@ -11,13 +11,10 @@ Updating a squirrel can be reached from clicking the unique squirrel id inside L
 
 You can reach out to us at sck2181@columbia.edu or vgk2104@columbia.edu to learn more about the project.
 
-# Group Name
+## Group Name
 Project Group 14
 
-# UNIs
+## UNIs
 
 UNIs: [sck2181, vgk2104]
-
-# Link To Server Running Our Application
-Link is not available as the project has not been deployed
 
