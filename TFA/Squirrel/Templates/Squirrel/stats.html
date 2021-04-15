@@ -1,10 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
+    <head>
+        <style>
+        .header
 
-</body>
-</html>
+        h1 { color: #000000; font-family: 'Calibri', sans-serif; font-size: 45px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: left; }
+
+        .button {
+            background-color: #000000;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: left;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+        <header class='header'>
+            <h1>Squirrel Statistics</h1>
+        </header>
+
+
+        <main>
+        	<li>In this dataset, we have a total of {{squirrels}} squirrels.</li>
+      		<br>
+            Age Statistics:
+
+            <li> The number of Juvenile Age Squirrels are {{age_juvenile}}</li>
+      		<li> The number of Adult Squirrels are {{age_adult}}</li>
+      		<br>
+            Location Statistics:
+
+      		<li>The number of Above Ground Squirrels: {{location_above}}</li>
+      		<li>The number of Ground Plane Squirrels: {{location_plane}}</li>
+
+      		<br>
+            Shift Statistics:
+            <li> The number of squirrels found in the morning is {{shift_choices_am}}</li>
+            <li> The number of squirrels found in the night is {{shift_choices_pm}}</li>
+
+            <br>
+            Color Statistics:
+      		<li>The number of Black Squirrels: {{color_choices_black}}</li>
+            <li>The number of Gray Squirrels: {{color_choices_gray}}</li>
+            <li>The number of Cinnamon Squirrels: {{color_choices_cinnamon}}</li>
+    	</main>
+
+
+
+    </body>

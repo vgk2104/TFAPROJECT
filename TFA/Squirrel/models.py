@@ -25,10 +25,6 @@ class Squirrel(models.Model):
         blank=False
     )
 
-    Hectare = models.CharField(
-        max_length=100
-    )
-
     AM = 'AM'
     PM = 'PM'
 
@@ -45,10 +41,6 @@ class Squirrel(models.Model):
 
     Date = models.DateField(
         blank=True
-    )
-
-    Hectare_Squirrel_Number = models.CharField(
-        max_length=100
     )
 
     Adult = 'Adult'
