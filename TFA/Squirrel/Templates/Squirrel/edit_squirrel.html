@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+
+
+	h1 {
+            color: #000000;
+            font-family: 'Calibri', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 2;
+            text-align: left;
+        }
+	body {
+		background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f6/European_Red_squirrel.jpg');
+	}
+</style>
 <head>
+	<h1>Editing the Squirrel Data</h1>
     <meta charset="UTF-8">
     <title>'Edit squirrel'</title>
 </head>
 <body>
+
 		<form method="post">{% csrf_token %}
 			{{form.as_p}}
 			<br>

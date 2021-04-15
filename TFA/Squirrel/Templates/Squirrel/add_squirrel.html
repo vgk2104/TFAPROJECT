@@ -1,7 +1,25 @@
 <!DOCTYPE html>
-<header>
+<style>
+
+
+	h1 {
+            color: #000000;
+            font-family: 'Calibri', sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 2;
+            text-align: left;
+        }
+	body {
+		background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f6/European_Red_squirrel.jpg');
+	}
+</style>
+
+<h1>
     Adding a Squirrel!
-</header>
+</h1>
+
 <form method="post">{% csrf_token %}
     {{ form.as_p }}
     <input type="submit" value="Save">
