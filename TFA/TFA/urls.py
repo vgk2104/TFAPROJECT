@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Squirrel.views import map, squirrel_list, add_squirrel
-from Squirrel.views import map, edit_squirrel, stats
+from Squirrel.views import map, edit_squirrel, stats, index
 from Squirrel import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index, name='index'),
     path('map/', views.map, name='map'),
     path('sightings/',squirrel_list, name='sightings'),
     path('sightings/add/', add_squirrel, name='add'),

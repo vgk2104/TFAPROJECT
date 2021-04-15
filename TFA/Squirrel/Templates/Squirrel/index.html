@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f6/European_Red_squirrel.jpg")}
+</style>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Squirrel Tracker</h1>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+      <a href="map/" style="width:25%" class="w3-bar-item w3-button">Maps</a>
+      <a href="sightings/" style="width:25%" class="w3-bar-item w3-button">List of Sightings</a>
+      <a href="sightings/add" style="width:25%" class="w3-bar-item w3-button">Add a Sighting</a>
+      <a href="sightings/stats" style="width:25%" class="w3-bar-item w3-button">Statistics</a>
+  </div>
+</div>
+
+</body>
+</html>

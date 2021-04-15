@@ -77,3 +77,7 @@ def add_squirrel(request):
         'form': form
     }
     return render(request, 'Squirrel/add_squirrel.html', context)
+
+def index(request):
+    return render(request, 'Squirrel/index.html')
+
